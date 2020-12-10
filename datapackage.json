@@ -1,0 +1,111 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "mapa-consultas-portal",
+      "path": "mapa-consultas-portal.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "MODULO",
+            "type": "string",
+            "format": "default",
+            "title": "Módulo",
+            "description": "Nome do módulo o qual a consulta está disponível no Portal da Transparência"
+          },
+          {
+            "name": "CONSULTA_PORTAL",
+            "type": "string",
+            "format": "default",
+            "title": "Consulta Portal",
+            "description": "Nome da consulta no Portal da Transparência"
+          },
+          {
+            "name": "TIPO_CONSULTA",
+            "type": "string",
+            "format": "default",
+            "title": "Tipo Consulta",
+            "description": "Nome do tipo de consulta no Portal da Transparência. Ex. pesquisa básica, pesquisa avançada, formulário de detalhamento e etc."
+          },
+          {
+            "name": "FILTRO",
+            "type": "string",
+            "format": "default",
+            "title": "Filtro",
+            "description": "Nome do filtro da consulta no Portal da Transparência. Ex. Filtro por órgão, favorecido e etc."
+          },
+          {
+            "name": "CAMPO_PORTAL",
+            "type": "string",
+            "format": "default",
+            "title": "Campo Portal",
+            "description": "Nome descritivo do campo no Portal da Transparência."
+          },
+          {
+            "name": "SELECAO",
+            "type": "string",
+            "format": "default",
+            "title": "Seleção",
+            "description": "Informação se o campo permite seleção. "
+          },
+          {
+            "name": "DETALHAMENTO",
+            "type": "string",
+            "format": "default",
+            "title": "Detalhamento",
+            "description": "Informação se é possível obter mais informações ao clicar no campo."
+          },
+          {
+            "name": "TOOTIP",
+            "type": "string",
+            "format": "default",
+            "description": "Informação se o campo possui algum dicionário.",
+            "title": "Tooltip"
+          },
+          {
+            "name": "TOOLTIP_DESCRICAO",
+            "type": "string",
+            "format": "default",
+            "title": "Descrição do Tooltip ",
+            "description": "Texto explicativo do campo do Portal da Transparência"
+          },
+          {
+            "name": "OBSERVACAO",
+            "type": "string",
+            "format": "default",
+            "title": "Observação"
+          },
+          {
+            "name": "UNIVERSO_ARMAZEN",
+            "type": "string",
+            "format": "default",
+            "title": "Universo Armazém",
+            "description": "Identificação do Universo que o campo do Portal de Transparência pertente no Armazém de Dados."
+          },
+          {
+            "name": "CAMPO_ARMAZEM",
+            "type": "string",
+            "format": "default",
+            "title": "Campo Armazém",
+            "description": "Nome identificador do campo do Portal no armazém de dados "
+          },
+          {
+            "name": "DIMENSAO_ARMAZEM",
+            "type": "string",
+            "format": "default",
+            "title": "Dimensão Armazém",
+            "description": "Descrição da dimensão que o campo do armazém se encontra"
+          }
+        ]
+      },
+      "title": "Mapa consultas Portal",
+      "format": "csv",
+      "encoding": "UFT8",
+      "description": "Relação do mapa das consulta do Portal"
+    }
+  ],
+  "name": "mapa-consultas-portal",
+  "title": "Mapa consultas do Portal",
+  "description": "Relação do mapa das consulta do Portal"
+}

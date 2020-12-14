@@ -101,7 +101,7 @@
       },
       "title": "Mapa consultas Portal",
       "format": "csv",
-      "encoding": "UFT8",
+      "encoding": "UTF-8",
       "description": "Relação do mapa das consulta do Portal"
     }
   ],

@@ -12,14 +12,14 @@
             "type": "string",
             "format": "default",
             "title": "Módulo",
-            "description": "Nome do módulo o qual a consulta está disponível no Portal da Transparência"
+            "description": "Nome do módulo o qual a consulta está disponível no Portal da Transparência. Exemplo: Despesas, Pessoal, Convênios e etc."
           },
           {
             "name": "CONSULTA_PORTAL",
             "type": "string",
             "format": "default",
             "title": "Consulta Portal",
-            "description": "Nome da consulta no Portal da Transparência"
+            "description": "Nome da consulta no Portal da Transparência dentro de um módulo.\nExemplo: Módulo Despesas - Consultas: Despesa, Restos a Pagar e Mapa de Investimento"
           },
           {
             "name": "TIPO_CONSULTA",
@@ -33,7 +33,7 @@
             "type": "string",
             "format": "default",
             "title": "Filtro",
-            "description": "Nome do filtro da consulta no Portal da Transparência. Ex. Filtro por órgão, favorecido e etc."
+            "description": "Nome do filtro (nível) da consulta no Portal da Transparência. Ex. Filtro por órgão, favorecido e etc."
           },
           {
             "name": "CAMPO_PORTAL",
@@ -54,7 +54,7 @@
             "type": "string",
             "format": "default",
             "title": "Detalhamento",
-            "description": "Informação se é possível obter mais informações ao clicar no campo."
+            "description": "Informação se é possível obter mais detalhes ao clicar no campo."
           },
           {
             "name": "TOOTIP",
@@ -68,7 +68,7 @@
             "type": "string",
             "format": "default",
             "title": "Descrição do Tooltip ",
-            "description": "Texto explicativo do campo do Portal da Transparência"
+            "description": "Texto explicativo do campo no Portal da Transparência"
           },
           {
             "name": "OBSERVACAO",
@@ -95,7 +95,7 @@
             "type": "string",
             "format": "default",
             "title": "Dimensão Armazém",
-            "description": "Descrição da dimensão que o campo do armazém se encontra"
+            "description": "Local/dimensão do campo no armazém de dados"
           }
         ]
       },

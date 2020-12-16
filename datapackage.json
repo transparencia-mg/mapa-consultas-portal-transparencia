@@ -43,28 +43,28 @@
             "description": "Nome descritivo do campo no Portal da Transparência."
           },
           {
-            "name": "SELECAO",
+            "name": "PERMITE_SELECAO",
             "type": "string",
             "format": "default",
             "title": "Seleção",
             "description": "Informação se o campo permite seleção. "
           },
           {
-            "name": "DETALHAMENTO",
+            "name": "PERMITE_CLIQUE",
             "type": "string",
             "format": "default",
             "title": "Detalhamento",
             "description": "Informação se é possível obter mais detalhes ao clicar no campo."
           },
           {
-            "name": "TOOTIP",
+            "name": "POSSUI_TOOTIP",
             "type": "string",
             "format": "default",
             "description": "Informação se o campo possui algum dicionário.",
             "title": "Tooltip"
           },
           {
-            "name": "TOOLTIP_DESCRICAO",
+            "name": "TOOLTIP_DESCRICAO_PORTAL",
             "type": "string",
             "format": "default",
             "title": "Descrição do Tooltip ",

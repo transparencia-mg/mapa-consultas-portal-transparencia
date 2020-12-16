@@ -88,7 +88,7 @@
             "type": "string",
             "format": "default",
             "title": "Campo origem dos dados",
-            "description": "Nome do campo que identifica a informação no Portal da Transparência "
+            "description": "Nome do campo que identifica a informação no Portal da Transparência"
           },
           {
             "name": "DIMENSAO_ORIGEM_DADOS",
@@ -96,21 +96,21 @@
             "format": "default",
             "title": "Dimensão da origem dos dados",
             "description": "Local/dimensão do campo no armazém de dados ou no sistema transacional"
-          }
+          },
           {
             "name": "PERIODICIDADE_ATUALIZACAO_PORTAL",
             "type": "string",
             "format": "default",
             "title": "Periodicidade de Atualização no Portal",
             "description": "Periodicidade de Atualização dos dados no Portal da Transparência"
-          }
+          },
           {
             "name": "FREQUENCIA_ATUALIZACAO_PORTAL",
             "type": "string",
             "format": "default",
             "title": "Frequência de Atualização no Portal",
             "description": "Frequência de Atualização dos dados no Portal da Transparência"
-          }
+          },
           {
             "name": "HORARIO_ATUALIZACAO_PORTAL",
             "type": "string",

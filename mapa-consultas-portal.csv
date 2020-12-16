@@ -1,4 +1,4 @@
-MODULO;CONSULTA_PORTAL;TIPO_CONSULTA;FILTRO;CAMPO_PORTAL;PERMITE_SELECAO;PERMITE_CLIQUE;POSSUI_TOOTIP;TOOLTIP_DESCRICAO_PORTAL;OBSERVACAO;UNIVERSO-ARMAZEN;CAMPO_ARMAZEM;DIMENSAO-ARMAZEM
+MODULO;CONSULTA_PORTAL;TIPO_CONSULTA;FILTRO;CAMPO_PORTAL;PERMITE_SELECAO;PERMITE_CLIQUE;POSSUI_TOOTIP;TOOLTIP_DESCRICAO_PORTAL;OBSERVACAO;UNIVERSO_ARMAZEN;CAMPO_ARMAZEM;DIMENSAO_ARMAZEM
 Despesas;despesa;Pesquisa Básica;;Ano;sim;não;não;;;siafi;Ano de exercício;Período Contábil 
 Despesas;despesa;Pesquisa Básica;;Inicio/Fim;sim;não;não;;;siafi;Mês - Númerico;Período Contábil 
 Despesas;despesa;Pesquisa Básica;Órgão;Órgão;não;sim;sim;Nome da unidade orçamentária que executou a despesa.;;siafi;Unidade Orçamentária - nome;Unidade Orçamentária

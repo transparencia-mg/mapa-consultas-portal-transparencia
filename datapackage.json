@@ -8,18 +8,18 @@
       "schema": {
         "fields": [
           {
-            "name": "MODULO",
+            "name": "GRUPO",
             "type": "string",
             "format": "default",
-            "title": "Módulo",
-            "description": "Nome do módulo o qual a consulta está disponível no Portal da Transparência. Exemplo: Despesas, Pessoal, Convênios e etc."
+            "title": "Grupo",
+            "description": "Nome do grupo o qual a consulta está disponível no Portal da Transparência. Exemplo: Despesas, Pessoal, Convênios e etc."
           },
           {
             "name": "CONSULTA_PORTAL",
             "type": "string",
             "format": "default",
             "title": "Consulta Portal",
-            "description": "Nome da consulta no Portal da Transparência dentro de um módulo.\nExemplo: Módulo Despesas - Consultas: Despesa, Restos a Pagar e Mapa de Investimento"
+            "description": "Nome da consulta no Portal da Transparência dentro de um grupo.Exemplo: Grupo: Despesas - Consultas: Despesa, Restos a Pagar e Mapa de Investimento"
           },
           {
             "name": "TIPO_CONSULTA",
@@ -46,14 +46,14 @@
             "name": "PERMITE_SELECAO",
             "type": "string",
             "format": "default",
-            "title": "Seleção",
+            "title": "Permite Seleção",
             "description": "Informação se o campo permite seleção. "
           },
           {
             "name": "PERMITE_CLIQUE",
             "type": "string",
             "format": "default",
-            "title": "Detalhamento",
+            "title": "Permite Clique",
             "description": "Informação se é possível obter mais detalhes ao clicar no campo."
           },
           {
@@ -61,13 +61,13 @@
             "type": "string",
             "format": "default",
             "description": "Informação se o campo possui algum dicionário.",
-            "title": "Tooltip"
+            "title": "Possui Tooltip"
           },
           {
             "name": "TOOLTIP_DESCRICAO_PORTAL",
             "type": "string",
             "format": "default",
-            "title": "Descrição do Tooltip ",
+            "title": "Descrição do Tooltip no Portal ",
             "description": "Texto explicativo do campo no Portal da Transparência"
           },
           {
@@ -77,25 +77,46 @@
             "title": "Observação"
           },
           {
-            "name": "UNIVERSO_ARMAZEN",
+            "name": "ORIGEM_DADOS",
             "type": "string",
             "format": "default",
-            "title": "Universo Armazém",
-            "description": "Identificação do Universo que o campo do Portal de Transparência pertente no Armazém de Dados."
+            "title": "Origem dos dados",
+            "description": "Identificação do local onde os dados são extraídos. Pode ser o armazém de dados ou no sistema transacional."
           },
           {
-            "name": "CAMPO_ARMAZEM",
+            "name": "CAMPO_ORIGEM_DADOS",
             "type": "string",
             "format": "default",
-            "title": "Campo Armazém",
-            "description": "Nome identificador do campo do Portal no armazém de dados "
+            "title": "Campo origem dos dados",
+            "description": "Nome do campo que identifica a informação no Portal da Transparência "
           },
           {
-            "name": "DIMENSAO_ARMAZEM",
+            "name": "DIMENSAO_ORIGEM_DADOS",
             "type": "string",
             "format": "default",
-            "title": "Dimensão Armazém",
-            "description": "Local/dimensão do campo no armazém de dados"
+            "title": "Dimensão da origem dos dados",
+            "description": "Local/dimensão do campo no armazém de dados ou no sistema transacional"
+          }
+          {
+            "name": "PERIODICIDADE_ATUALIZACAO_PORTAL",
+            "type": "string",
+            "format": "default",
+            "title": "Periodicidade de Atualização no Portal",
+            "description": "Periodicidade de Atualização dos dados no Portal da Transparência"
+          }
+          {
+            "name": "FREQUENCIA_ATUALIZACAO_PORTAL",
+            "type": "string",
+            "format": "default",
+            "title": "Frequência de Atualização no Portal",
+            "description": "Frequência de Atualização dos dados no Portal da Transparência"
+          }
+          {
+            "name": "HORARIO_ATUALIZACAO_PORTAL",
+            "type": "string",
+            "format": "default",
+            "title": "Horário de Atualização no Portal",
+            "description": "Horário de Atualização dos dados no Portal da Transparência"
           }
         ]
       },

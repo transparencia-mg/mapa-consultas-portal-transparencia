@@ -1,0 +1,12 @@
+GRUPO;CONSULTA_PORTAL;TIPO_CONSULTA;FILTRO;CAMPO_PORTAL;PERMITE_SELECAO;PERMITE_CLIQUE;POSSUI_TOOTIP;TOOLTIP_DESCRICAO_PORTAL;OBSERVACAO;ORIGEM_DADOS;CAMPO_ORIGEM_DADOS;DIMENSAO_ORIGEM_DADOS;PERIODICIDADE_ATUALIZACAO_PORTAL;FREQUENCIA_ATUALIZACAO_PORTAL;HORARIO_ATUALIZACAO_PORTAL
+Compras e Patrimônio;Compras e Contratos;Formulário de Detalhamento;Nota de empenho;Nº do empenho;não;não;não;;;armazém SIAFI;;;;;
+Compras e Patrimônio;Compras e Contratos;Formulário de Detalhamento;Nota de empenho;Credor - nome;não;não;não;;;armazém SIAFI;;;;;
+Compras e Patrimônio;Compras e Contratos;Formulário de Detalhamento;Nota de empenho;Credor - código;não;não;não;;;armazém SIAFI;;;;;
+Compras e Patrimônio;Compras e Contratos;Formulário de Detalhamento;Nota de empenho;Unidade Orçamentária;não;não;não;;;armazém SIAFI;;;;;
+Compras e Patrimônio;Compras e Contratos;Formulário de Detalhamento;Nota de empenho;Programa de Trabalho;não;não;não;;;armazém SIAFI;;;;;
+Compras e Patrimônio;Compras e Contratos;Formulário de Detalhamento;Nota de empenho;Natureza da Despesa;não;não;não;;;armazém SIAFI;;;;;
+Compras e Patrimônio;Compras e Contratos;Formulário de Detalhamento;Nota de empenho;Fonte;não;não;não;;;armazém SIAFI;;;;;
+Compras e Patrimônio;Compras e Contratos;Formulário de Detalhamento;Nota de empenho;Tipo de Empenho;não;não;não;;;armazém SIAFI;;;;;
+Compras e Patrimônio;Compras e Contratos;Formulário de Detalhamento;Nota de empenho;Data de Registro;não;não;não;;;armazém SIAFI;;;;;
+Compras e Patrimônio;Compras e Contratos;Formulário de Detalhamento;Nota de empenho;Dotações Orçamentárias;não;não;não;;;armazém SIAFI;;;;;
+Compras e Patrimônio;Compras e Contratos;Formulário de Detalhamento;Nota de empenho;Histórico de Referência;não;não;não;;;armazém SIAFI;;;;;

@@ -630,39 +630,39 @@ Planejamento e Resultados;Alteração Orçamentária;Pesquisa Avançada;Tabela de Res
 Planejamento e Resultados;Alteração Orçamentária;Pesquisa Avançada;Tabela de Resultado;Crédito Suplementar;não;não;sim;Valor monetário suplementado ao orçamento, destinado ao reforço de dotação já existente na Lei Orçamentária anual;;armazém SIAFI;Valor Suplementação;;Diária;Incremental;Diária
 Planejamento e Resultados;Alteração Orçamentária;Pesquisa Avançada;Tabela de Resultado;Crédito Extraordinário;não;não;sim;Valor monetário suplementado ao orçamento, destinado ao atendimento de despesas urgentes e imprevisíveis, como em caso de guerra, comoção interna ou calamidade pública;;armazém SIAFI;Valor Crédito Extraordinário;;Diária;Incremental;Diária
 Planejamento e Resultados;Alteração Orçamentária;Pesquisa Avançada;Tabela de Resultado;Crédito Especial;não;não;sim;Valor monetário suplementado ao orçamento, destinado a despesas para as quais não haja dotação orçamentária específica na Lei Orçamentária Anual;;armazém SIAFI;Valor crédito Especial;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Básica;;Ano;sim;não;não;;;armazém SIAFI;Ano de exercício;Período Contábil ;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Básica;;Órgão;não;sim;sim;Nome da unidade orçamentária na qual a despesa está orçada.;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Básica;;Função;não;sim;sim;Áreas de atuação do setor público nas quais são gastos os recursos, tais como saúde, educação, administração, transportes, etc.;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Básica;;Programa;não;não;sim;Conjunto de ações para atender um problema ou demanda da sociedade.;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Básica;;Ação;não;sim;sim;Conjunto de operações das quais resulta a entrega de um produto (bem, serviço ou transferência financeira) que contribui para atender ao objetivo de um programa.;-;armazém SIAFI;Projeto Atividade - Descrição;Execução Consolidada da Despesa Orçamentária >> Programa de trabalho  - Exec. Despesa;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Básica;;Grupo;não;não;sim;Classificação da despesa que agrega elementos de despesa quanto ao objeto do gasto (pessoal, juros, amortização da dívida, investimentos, etc.).;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Básica;;Modalidade de Aplicação;não;não;sim;Indica se os recursos são aplicados diretamente por órgãos ou entidades no âmbito da mesma esfera de Governo ou por outro ente da Federação.;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Básica;;Indicador de Ação Governamental;não;não;sim;O Indicador de Ação Governamental (IGA) indica o tipo de acompanhamento que é feito da ação: geral ou intensivo.;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Básica;;Indicador de Procedência e Uso;não;não;sim;Identifica a origem e a utilização dos recursos. Ex.: se os recursos são para livre utilização, se foram transferidos de outra unidade orçamentária, se são para contrapartida a convênios, etc.;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Básica;;Crédito Autorizado;não;não;sim;Valor monetário do orçamento, considerando a Lei Orçamentária Anual, as suplementações oriundas dos créditos adicionais e os remanejamentos realizados entre dotações orçamentárias.;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Básica;;Crédito Inicial;não;não;sim;Valor monetário do orçamento instituído pela Lei Orçamentária Anual.;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Básica;;Fonte de Recurso;não;não;sim;Indica a origem do dinheiro arrecadado. Combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas finalidades, e aquele que pode ser livremente alocado.;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Checkbox;Ano;sim;não;não;;;armazém SIAFI;Ano de exercício;Período Contábil ;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Checkbox;Órgão;sim;não;não;;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Checkbox;Função;sim;não;não;;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Checkbox;Programa;sim;não;não;;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Checkbox;Ação;sim;não;não;;-;armazém SIAFI;Projeto Atividade - Descrição;Execução Consolidada da Despesa Orçamentária >> Programa de trabalho  - Exec. Despesa;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Checkbox;Grupo;sim;não;não;;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Checkbox;Modalidade de Aplicação;sim;não;não;;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Checkbox;Indicador de Ação Governamental;sim;não;não;;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Checkbox;Indicador de Procedência e Uso;sim;não;não;;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Checkbox;Fonte de Recurso;sim;não;não;;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Tabela de Resultado;Órgão;não;não;sim;Nome da unidade orçamentária na qual a despesa está orçada.;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Tabela de Resultado;Função;não;não;sim;Áreas de atuação do setor público nas quais são gastos os recursos, tais como saúde, educação, administração, transportes, etc.;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Tabela de Resultado;Programa;não;não;sim;Conjunto de ações para atender um problema ou demanda da sociedade.;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Tabela de Resultado;Ação;não;não;sim;Conjunto de operações das quais resulta a entrega de um produto (bem, serviço ou transferência financeira) que contribui para atender ao objetivo de um programa.;-;armazém SIAFI;Projeto Atividade - Descrição;Execução Consolidada da Despesa Orçamentária >> Programa de trabalho  - Exec. Despesa;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Tabela de Resultado;Grupo;não;não;sim;Classificação da despesa que agrega elementos de despesa quanto ao objeto do gasto (pessoal, juros, amortização da dívida, investimentos, etc.).;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Tabela de Resultado;Modalidade de Aplicação;não;não;sim;Indica se os recursos são aplicados diretamente por órgãos ou entidades no âmbito da mesma esfera de Governo ou por outro ente da Federação.;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Tabela de Resultado;Indicador de Ação Governamental;não;não;sim;O Indicador de Ação Governamental (IGA) indica o tipo de acompanhamento que é feito da ação: geral ou intensivo.;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Tabela de Resultado;Indicador de Procedência e Uso;não;não;sim;Identifica a origem e a utilização dos recursos. Ex.: se os recursos são para livre utilização, se foram transferidos de outra unidade orçamentária, se são para contrapartida a convênios, etc.;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Tabela de Resultado;Crédito Autorizado;não;não;sim;Valor monetário do orçamento, considerando a Lei Orçamentária Anual, as suplementações oriundas dos créditos adicionais e os remanejamentos realizados entre dotações orçamentárias.;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Tabela de Resultado;Crédito Inicial;não;não;sim;Valor monetário do orçamento instituído pela Lei Orçamentária Anual.;;armazém SIAFI;;;Diária;Incremental;Diária
-Planejamento e Resultados;Crédito Orçamentária;Pesquisa Avançada;Tabela de Resultado;Fonte de Recurso;não;não;sim;Indica a origem do dinheiro arrecadado. Combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas finalidades, e aquele que pode ser livremente alocado.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Básica;;Ano;sim;não;não;;;armazém SIAFI;Ano de exercício;Período Contábil ;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Básica;;Órgão;não;sim;sim;Nome da unidade orçamentária na qual a despesa está orçada.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Básica;;Função;não;sim;sim;Áreas de atuação do setor público nas quais são gastos os recursos, tais como saúde, educação, administração, transportes, etc.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Básica;;Programa;não;não;sim;Conjunto de ações para atender um problema ou demanda da sociedade.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Básica;;Ação;não;sim;sim;Conjunto de operações das quais resulta a entrega de um produto (bem, serviço ou transferência financeira) que contribui para atender ao objetivo de um programa.;-;armazém SIAFI;Projeto Atividade - Descrição;Execução Consolidada da Despesa Orçamentária >> Programa de trabalho  - Exec. Despesa;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Básica;;Grupo;não;não;sim;Classificação da despesa que agrega elementos de despesa quanto ao objeto do gasto (pessoal, juros, amortização da dívida, investimentos, etc.).;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Básica;;Modalidade de Aplicação;não;não;sim;Indica se os recursos são aplicados diretamente por órgãos ou entidades no âmbito da mesma esfera de Governo ou por outro ente da Federação.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Básica;;Indicador de Ação Governamental;não;não;sim;O Indicador de Ação Governamental (IGA) indica o tipo de acompanhamento que é feito da ação: geral ou intensivo.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Básica;;Indicador de Procedência e Uso;não;não;sim;Identifica a origem e a utilização dos recursos. Ex.: se os recursos são para livre utilização, se foram transferidos de outra unidade orçamentária, se são para contrapartida a convênios, etc.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Básica;;Crédito Autorizado;não;não;sim;Valor monetário do orçamento, considerando a Lei Orçamentária Anual, as suplementações oriundas dos créditos adicionais e os remanejamentos realizados entre dotações orçamentárias.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Básica;;Crédito Inicial;não;não;sim;Valor monetário do orçamento instituído pela Lei Orçamentária Anual.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Básica;;Fonte de Recurso;não;não;sim;Indica a origem do dinheiro arrecadado. Combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas finalidades, e aquele que pode ser livremente alocado.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Checkbox;Ano;sim;não;não;;;armazém SIAFI;Ano de exercício;Período Contábil ;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Checkbox;Órgão;sim;não;não;;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Checkbox;Função;sim;não;não;;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Checkbox;Programa;sim;não;não;;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Checkbox;Ação;sim;não;não;;-;armazém SIAFI;Projeto Atividade - Descrição;Execução Consolidada da Despesa Orçamentária >> Programa de trabalho  - Exec. Despesa;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Checkbox;Grupo;sim;não;não;;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Checkbox;Modalidade de Aplicação;sim;não;não;;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Checkbox;Indicador de Ação Governamental;sim;não;não;;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Checkbox;Indicador de Procedência e Uso;sim;não;não;;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Checkbox;Fonte de Recurso;sim;não;não;;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Tabela de Resultado;Órgão;não;não;sim;Nome da unidade orçamentária na qual a despesa está orçada.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Tabela de Resultado;Função;não;não;sim;Áreas de atuação do setor público nas quais são gastos os recursos, tais como saúde, educação, administração, transportes, etc.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Tabela de Resultado;Programa;não;não;sim;Conjunto de ações para atender um problema ou demanda da sociedade.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Tabela de Resultado;Ação;não;não;sim;Conjunto de operações das quais resulta a entrega de um produto (bem, serviço ou transferência financeira) que contribui para atender ao objetivo de um programa.;-;armazém SIAFI;Projeto Atividade - Descrição;Execução Consolidada da Despesa Orçamentária >> Programa de trabalho  - Exec. Despesa;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Tabela de Resultado;Grupo;não;não;sim;Classificação da despesa que agrega elementos de despesa quanto ao objeto do gasto (pessoal, juros, amortização da dívida, investimentos, etc.).;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Tabela de Resultado;Modalidade de Aplicação;não;não;sim;Indica se os recursos são aplicados diretamente por órgãos ou entidades no âmbito da mesma esfera de Governo ou por outro ente da Federação.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Tabela de Resultado;Indicador de Ação Governamental;não;não;sim;O Indicador de Ação Governamental (IGA) indica o tipo de acompanhamento que é feito da ação: geral ou intensivo.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Tabela de Resultado;Indicador de Procedência e Uso;não;não;sim;Identifica a origem e a utilização dos recursos. Ex.: se os recursos são para livre utilização, se foram transferidos de outra unidade orçamentária, se são para contrapartida a convênios, etc.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Tabela de Resultado;Crédito Autorizado;não;não;sim;Valor monetário do orçamento, considerando a Lei Orçamentária Anual, as suplementações oriundas dos créditos adicionais e os remanejamentos realizados entre dotações orçamentárias.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Tabela de Resultado;Crédito Inicial;não;não;sim;Valor monetário do orçamento instituído pela Lei Orçamentária Anual.;;armazém SIAFI;;;Diária;Incremental;Diária
+Planejamento e Resultados;Crédito Orçamentário;Pesquisa Avançada;Tabela de Resultado;Fonte de Recurso;não;não;sim;Indica a origem do dinheiro arrecadado. Combina a origem do dinheiro às despesas orçamentárias. Esta vinculação visa demonstrar o montante de dinheiro que já está comprometido com o atendimento de determinadas finalidades, e aquele que pode ser livremente alocado.;;armazém SIAFI;;;Diária;Incremental;Diária
 Dívida Pública;Execução da Dívida;Pesquisa Básica;;Ano;sim;não;não;;;armazém SIAFI;Ano de exercício;Período Contábil ;Diária;Terça a Sábado;Entre 04:30h a 05:30hs
 Dívida Pública;Execução da Dívida;Pesquisa Básica;;Tipo de Dívida;não;sim;sim;Compromissos financeiros assumidos pelo governo, podem ser dívida pública interna (entidade pública dentro do país) e dívida pública externa (entidade pública no exterior).;;armazém SIAFI;;;Diária;Terça a Sábado;Entre 04:30h a 05:30hs
 Dívida Pública;Execução da Dívida;Pesquisa Básica;;Credor;não;sim;sim;Entidades, governos e pessoas nacionais e estrangeiras com as quais o governo estadual contrai dívidas.;;armazém SIAFI;;;Diária;Terça a Sábado;Entre 04:30h a 05:30hs
@@ -677,3 +677,125 @@ Dívida Pública;Execução da Dívida;Pesquisa Básica;;Total Realizado;não;não;sim;S
 Dívida Pública;Execução da Dívida;Pesquisa Básica;;Valor Inicial Contratado;não;não;sim;Valor previsto em contrato para execução do objeto contratado.;;armazém SIAFI;;;Diária;Terça a Sábado;Entre 04:30h a 05:30hs
 Convênios;Convênio/Parceria -Saída de Recursos;;;Valor Repassado;;;;;;armazém SIAFI;;;;;
 Convênios;Convênio de Entrada;;;;;;;;;armazém SIAFI;;;;;
+Pessoal;despesa com pessoal;pesquisa básica;;ano;sim;não;não;-;-;armazém SIAFI;Ano de exercício;Período Contábil ;;;
+Pessoal;despesa com pessoal;pesquisa básica;;início/fim;sim;não;não;-;-;armazém SIAFI;Mês - Númerico;Período Contábil ;;;
+Pessoal;despesa com pessoal;pesquisa básica;poder;poder;não;sim;sim;Três poderes formam o Estado: Executivo, Legislativo e Judiciário. Contém um conjunto de órgãos e entidades e atuam separadamente, com independência e harmonia. Aqui, o Ministério Público está colocado à parte.;-;armazém SIAFI;;;;;
+Pessoal;despesa com pessoal;pesquisa básica;poder;Valor Pessoal Ativo;não;não;sim;;-;armazém SIAFI;;;;;
+Pessoal;despesa com pessoal;pesquisa básica;poder;Valor Pessoal Inativo;não;não;sim;Despesas com pessoal inativo, relativas a cargos, funções ou empregos, civis, militares e de membros de Poder, com proventos da aposentadoria e reformas.;-;armazém SIAFI;;;;;
+Pessoal;despesa com pessoal;pesquisa básica;poder;Valor Pensionistas;não;não;sim;Despesas com pensionistas, relativas a mandatos eletivos, cargos, funções ou empregos, civis, militares e de membros de Poder, com pensões, inclusive as de caráter indenizatório;-;armazém SIAFI;;;;;
+Pessoal;despesa com pessoal;pesquisa básica;poder;Valor Contratados;não;não;sim;Despesas relativas à mão-de-obra constantes dos contratos de terceirização, incluindo as contribuições recolhidas pelo ente às entidades de previdência.;-;armazém SIAFI;;;;;
+Pessoal;despesa com pessoal;pesquisa básica;poder;Total;não;não;sim;Somatório das despesas com pessoal ativo, inativo, pensionistas e contratados.;-;armazém SIAFI;;;;;
+Pessoal;despesa com pessoal;pesquisa básica;poder;Código;não;não;não;;-;armazém SIAFI;Unidade Orçamentária - código;Unidade Orçamentária;;;
+Pessoal;despesa com pessoal;pesquisa básica;poder;Órgão;não;não;sim;Nome da Unidade Orçametária que executou a despesa;-;armazém SIAFI;Unidade Orçamentária - nome;Unidade Orçamentária;;;
+Pessoal;despesa com pessoal;pesquisa básica;Órgão;Valor Pessoal Ativo;não;não;sim;;-;armazém SIAFI;;;;;
+Pessoal;despesa com pessoal;pesquisa básica;Órgão;Valor Pessoal Inativo;não;não;sim;Despesas com pessoal inativo, relativas a cargos, funções ou empregos, civis, militares e de membros de Poder, com proventos da aposentadoria e reformas.;-;armazém SIAFI;;;;;
+Pessoal;despesa com pessoal;pesquisa básica;Órgão;Valor Pensionistas;não;não;sim;Despesas com pensionistas, relativas a mandatos eletivos, cargos, funções ou empregos, civis, militares e de membros de Poder, com pensões, inclusive as de caráter indenizatório;-;armazém SIAFI;;;;;
+Pessoal;despesa com pessoal;pesquisa básica;Órgão;Valor Contratados;não;não;sim;Despesas relativas à mão-de-obra constantes dos contratos de terceirização, incluindo as contribuições recolhidas pelo ente às entidades de previdência.;-;armazém SIAFI;;;;;
+Pessoal;despesa com pessoal;pesquisa básica;Órgão;Total;não;não;sim;Somatório das despesas com pessoal ativo, inativo, pensionistas e contratados.;-;armazém SIAFI;;;;;
+Pessoal;despesa com pessoal;pesquisa básica;Órgão;Código;não;não;não;;-;armazém SIAFI;Unidade Orçamentária - código;Unidade Orçamentária;;;
+Pessoal;despesa com pessoal;pesquisa básica;Órgão;Órgão;não;não;sim;Nome da Unidade Orçametária que executou a despesa;-;armazém SIAFI;Unidade Orçamentária - nome;Unidade Orçamentária;;;
+Pessoal;viagens;pesquisa básica;;Ano;sim;não;não;;-;;;;;;
+Pessoal;viagens;pesquisa básica;;início/fim;sim;não;não;;-;;;;;;
+Pessoal;viagens;pesquisa básica;Órgão;Órgão;não;sim;sim;Nome da unidade orçamentária que executou a despesa.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Órgão;Cargo;não;não;sim;Cargo público ocupado pelo servidor que realizou a viagem.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Órgão;Favorecido ;não;sim;sim;servidor público ou colaborador eventual que realizou a viagem a trabalho.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Órgão;CPF;não;não;sim;Número de identificação do Cadastro de Pessoas Físicas.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Órgão;Número de Documento De Viagem;não;sim;sim;Número de identificação do documento de viagem no Sistema de Concessão Diárias e Passagens (SCDP).;-;;;;;;
+Pessoal;viagens;pesquisa básica;Órgão;Município De Origem;não;não;sim;Cidade de partida do servidor ou colaborador eventual em viagem a trabalho. Uma viagem com vários trechos pode ter mais de um município de origem.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Órgão;Município De Destino;não;não;sim;Cidade de destino do servidor ou colaborador eventual em viagem a trabalho. Uma viagem com vários trechos pode ter mais de um município de destino.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Órgão;Quantidade De Diárias;não;não;sim;Quantidade de diárias pagas pelo órgão em razão das viagens a trabalho. A diária é uma quantia de dinheiro paga ao servidor público ou colaborador eventual para custear suas despesas com alimentação, estadia e deslocamento durante a viagem. Os valores unitários das diárias foram definidos pelo Decreto nº 47.045/16.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Órgão;Quantidade De Viagens;não;não;sim;Quantidade de viagens a trabalho realizadas por servidor público ou colaborador eventual.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Órgão;Valor Pago Diárias;não;não;sim;Valor pago pelo órgão ao servidor público ou colaborador eventual para custear suas despesas com alimentação, estadia e deslocamento durante a viagem a trabalho. É definido com base nas regras e valores constantes no Decreto nº 47.045/16.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Órgão;Valor Pago Passagens;não;não;sim;Valor pago referente às despesas com passagens aéreas e terrestres de servidor público ou colaborador eventual em razão de viagem a trabalho.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Órgão;Valor Total;não;não;sim;Somatório dos valores pagos referente às despesas com diárias e passagens aéreas e terrestres de servidor público ou colaborador eventual em razão de viagem a trabalho.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Destino;Município;não;sim;sim;Cidade de destino do servidor ou colaborador eventual em viagem a trabalho. Uma viagem com vários trechos pode ter mais de um município de destino.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Destino;Estado;não;não;sim;Estado ao qual pertence o município de destino do servidor ou colaborador eventual em viagem a trabalho.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Destino;País;não;não;sim;País ao qual pertence o município de destino do servidor ou colaborador eventual em viagem a trabalho;-;;;;;;
+Pessoal;viagens;pesquisa básica;Destino;Quantidade De Viagens;não;não;sim;Quantidade de viagens a trabalho realizadas por servidor público ou colaborador eventual.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Destino;Favorecido ;não;sim;sim;servidor público ou colaborador eventual que realizou a viagem a trabalho.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Destino;CPF;não;não;sim;Número de identificação do Cadastro de Pessoas Físicas.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Destino;Órgão;não;não;sim;Nome da unidade orçamentária que executou a despesa.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Destino;Cargo;não;não;sim;Cargo público ocupado pelo servidor que realizou a viagem.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Destino;Número de Documento De Viagem;não;sim;sim;Número de identificação do documento de viagem no Sistema de Concessão Diárias e Passagens (SCDP).;-;;;;;;
+Pessoal;viagens;pesquisa básica;Destino;Município De Origem;não;não;sim;Cidade de partida do servidor ou colaborador eventual em viagem a trabalho. Uma viagem com vários trechos pode ter mais de um município de origem.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Destino;Município De Destino;não;não;sim;Cidade de destino do servidor ou colaborador eventual em viagem a trabalho. Uma viagem com vários trechos pode ter mais de um município de destino.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Programa;Programa;não;sim;sim;Conjunto de ações para atender um problema ou demanda da sociedade.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Programa;Órgão;não;não;sim;Nome da unidade orçamentária que executou a despesa.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Programa;Favorecido ;não;sim;sim;servidor público ou colaborador eventual que realizou a viagem a trabalho.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Programa;CPF;não;não;sim;Número de identificação do Cadastro de Pessoas Físicas.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Programa;Órgão;não;não;sim;Nome da unidade orçamentária que executou a despesa.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Programa;Cargo;não;não;sim;Cargo público ocupado pelo servidor que realizou a viagem.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Programa;Número de Documento De Viagem;não;sim;sim;Número de identificação do documento de viagem no Sistema de Concessão Diárias e Passagens (SCDP).;-;;;;;;
+Pessoal;viagens;pesquisa básica;Programa;Município De Origem;não;não;sim;Cidade de partida do servidor ou colaborador eventual em viagem a trabalho. Uma viagem com vários trechos pode ter mais de um município de origem.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Programa;Município De Destino;não;não;sim;Cidade de destino do servidor ou colaborador eventual em viagem a trabalho. Uma viagem com vários trechos pode ter mais de um município de destino.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Programa;Quantidade De Diárias;não;não;sim;Quantidade de diárias pagas pelo órgão em razão das viagens a trabalho. A diária é uma quantia de dinheiro paga ao servidor público ou colaborador eventual para custear suas despesas com alimentação, estadia e deslocamento durante a viagem. Os valores unitários das diárias foram definidos pelo Decreto nº 47.045/16.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Programa;Quantidade De Viagens;não;não;sim;Quantidade de viagens a trabalho realizadas por servidor público ou colaborador eventual.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Programa;Valor Pago Diárias;não;não;sim;Valor pago pelo órgão ao servidor público ou colaborador eventual para custear suas despesas com alimentação, estadia e deslocamento durante a viagem a trabalho. É definido com base nas regras e valores constantes no Decreto nº 47.045/16.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Programa;Valor Pago Passagens;não;não;sim;Valor pago referente às despesas com passagens aéreas e terrestres de servidor público ou colaborador eventual em razão de viagem a trabalho.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Programa;Valor Total;não;não;sim;Somatório dos valores pagos referente às despesas com diárias e passagens aéreas e terrestres de servidor público ou colaborador eventual em razão de viagem a trabalho.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Favorecido;Favorecido ;não;sim;sim;servidor público ou colaborador eventual que realizou a viagem a trabalho.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Favorecido;CPF;não;não;sim;Número de identificação do Cadastro de Pessoas Físicas.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Favorecido;Órgão;não;não;sim;Nome da unidade orçamentária que executou a despesa.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Favorecido;Cargo;não;não;sim;Cargo público ocupado pelo servidor que realizou a viagem.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Favorecido;Número de Documento De Viagem;não;sim;sim;Número de identificação do documento de viagem no Sistema de Concessão Diárias e Passagens (SCDP).;-;;;;;;
+Pessoal;viagens;pesquisa básica;Favorecido;Município De Origem;não;não;sim;Cidade de partida do servidor ou colaborador eventual em viagem a trabalho. Uma viagem com vários trechos pode ter mais de um município de origem.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Favorecido;Município De Destino;não;não;sim;Cidade de destino do servidor ou colaborador eventual em viagem a trabalho. Uma viagem com vários trechos pode ter mais de um município de destino.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Favorecido;Quantidade De Diárias;não;não;sim;Quantidade de diárias pagas pelo órgão em razão das viagens a trabalho. A diária é uma quantia de dinheiro paga ao servidor público ou colaborador eventual para custear suas despesas com alimentação, estadia e deslocamento durante a viagem. Os valores unitários das diárias foram definidos pelo Decreto nº 47.045/16.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Favorecido;Quantidade De Viagens;não;não;sim;Quantidade de viagens a trabalho realizadas por servidor público ou colaborador eventual.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Favorecido;Valor Pago Diárias;não;não;sim;Valor pago pelo órgão ao servidor público ou colaborador eventual para custear suas despesas com alimentação, estadia e deslocamento durante a viagem a trabalho. É definido com base nas regras e valores constantes no Decreto nº 47.045/16.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Favorecido;Valor Pago Passagens;não;não;sim;Valor pago referente às despesas com passagens aéreas e terrestres de servidor público ou colaborador eventual em razão de viagem a trabalho.;-;;;;;;
+Pessoal;viagens;pesquisa básica;Favorecido;Valor Total;não;não;sim;Somatório dos valores pagos referente às despesas com diárias e passagens aéreas e terrestres de servidor público ou colaborador eventual em razão de viagem a trabalho.;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dados da Viagem;Nome;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dados da Viagem;CPF;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dados da Viagem;Masp;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dados da Viagem;Órgão de exercício;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dados da Viagem;Tipo de Viajante;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dados da Viagem;Cargo;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dados da Viagem;Cargo em comissão;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dados da Viagem;Data de Início da Viagem;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dados da Viagem;Data Fim da Viagem;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dados da Viagem;Motivo (campo fechado);não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Trechos da Viagem;Motivo (campo aberto);não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Trechos da Viagem;Origem (Município/Estado/País);não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Trechos da Viagem;Destino (Município/Estado/País);não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Trechos da Viagem;Meio de Transporte;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Trechos da Viagem;Data início da viagem;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Trechos da Viagem;Data Fim da Viagem;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Trechos da Viagem;Quantidade de diárias por trecho;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Trechos da Viagem;Valor pago de diárias por trecho;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Código Unidade Orçamentária;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Unidade Orçamentária;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Código Unidade Executora ;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Unidade Executora;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Código Função;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Função;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Código Subfunção;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Subfunção;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Código Programa;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Programa;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Código Ação;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Ação;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Código Categoria Econômica;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Categoria Econômica;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Código Grupo de Despesa;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Grupo de Despesa;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Código Elemento de Despesa;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Elemento de Despesa;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Código Item de Despesa;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Item de Despesa;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Código Modalidade de Aplicação;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Modalidade de Aplicação;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Tipo de Empenho;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Código Fonte de Recurso;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Fonte de Recurso;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Código Identificador de procedência e uso;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dotação Orçamentária da Diária;Identificador de procedência e uso;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dados da Liquidação da diária;Documento Nº;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dados da Liquidação da diária;Data;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dados da Liquidação da diária;Valor Liquidado;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dados do pagamento da diária;Documento Nº;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dados do pagamento da diária;Data;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Dados do pagamento da diária;Valor Pago;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Consolidação dos gastos da diária;Valor Pago;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Consolidação dos gastos da diária;Valor devolvido;não;não;não;;-;;;;;;
+Pessoal;viagens;Formulário de Detalhamento;Consolidação dos gastos da diária;Valor Total;não;não;não;;-;;;;;;

@@ -1,132 +1,153 @@
 {
   "profile": "tabular-data-package",
   "resources": [
-    {
-      "name": "mapa-consultas-portal",
-      "path": "mapa-consultas-portal.csv",
+ {
+      "name": "alteracao-orcamentaria",
+      "path": "alteracao-orcamentaria.csv",
       "profile": "tabular-data-resource",
-      "schema": {
-        "fields": [
-          {
-            "name": "GRUPO",
-            "type": "string",
-            "format": "default",
-            "title": "Grupo",
-            "description": "Nome do grupo o qual a consulta está disponível no Portal da Transparência. Exemplo: Despesas, Pessoal, Convênios e etc."
-          },
-          {
-            "name": "CONSULTA_PORTAL",
-            "type": "string",
-            "format": "default",
-            "title": "Consulta Portal",
-            "description": "Nome da consulta no Portal da Transparência dentro de um grupo.Exemplo: Grupo: Despesas - Consultas: Despesa, Restos a Pagar e Mapa de Investimento"
-          },
-          {
-            "name": "TIPO_CONSULTA",
-            "type": "string",
-            "format": "default",
-            "title": "Tipo Consulta",
-            "description": "Nome do tipo de consulta no Portal da Transparência. Ex. pesquisa básica, pesquisa avançada, formulário de detalhamento e etc."
-          },
-          {
-            "name": "FILTRO",
-            "type": "string",
-            "format": "default",
-            "title": "Filtro",
-            "description": "Nome do filtro (nível) da consulta no Portal da Transparência. Ex. Filtro por órgão, favorecido e etc."
-          },
-          {
-            "name": "CAMPO_PORTAL",
-            "type": "string",
-            "format": "default",
-            "title": "Campo Portal",
-            "description": "Nome descritivo do campo no Portal da Transparência."
-          },
-          {
-            "name": "PERMITE_SELECAO",
-            "type": "string",
-            "format": "default",
-            "title": "Permite Seleção",
-            "description": "Informação se o campo permite seleção. "
-          },
-          {
-            "name": "PERMITE_CLIQUE",
-            "type": "string",
-            "format": "default",
-            "title": "Permite Clique",
-            "description": "Informação se é possível obter mais detalhes ao clicar no campo."
-          },
-          {
-            "name": "POSSUI_TOOTIP",
-            "type": "string",
-            "format": "default",
-            "description": "Informação se o campo possui algum dicionário.",
-            "title": "Possui Tooltip"
-          },
-          {
-            "name": "TOOLTIP_DESCRICAO_PORTAL",
-            "type": "string",
-            "format": "default",
-            "title": "Descrição do Tooltip no Portal ",
-            "description": "Texto explicativo do campo no Portal da Transparência"
-          },
-          {
-            "name": "OBSERVACAO",
-            "type": "string",
-            "format": "default",
-            "title": "Observação"
-          },
-          {
-            "name": "ORIGEM_DADOS",
-            "type": "string",
-            "format": "default",
-            "title": "Origem dos dados",
-            "description": "Identificação do local onde os dados são extraídos. Pode ser o armazém de dados ou no sistema transacional."
-          },
-          {
-            "name": "CAMPO_ORIGEM_DADOS",
-            "type": "string",
-            "format": "default",
-            "title": "Campo origem dos dados",
-            "description": "Nome do campo que identifica a informação no Portal da Transparência"
-          },
-          {
-            "name": "DIMENSAO_ORIGEM_DADOS",
-            "type": "string",
-            "format": "default",
-            "title": "Dimensão da origem dos dados",
-            "description": "Local/dimensão do campo no armazém de dados ou no sistema transacional"
-          },
-          {
-            "name": "PERIODICIDADE_ATUALIZACAO_PORTAL",
-            "type": "string",
-            "format": "default",
-            "title": "Periodicidade de Atualização no Portal",
-            "description": "Periodicidade de Atualização dos dados no Portal da Transparência"
-          },
-          {
-            "name": "FREQUENCIA_ATUALIZACAO_PORTAL",
-            "type": "string",
-            "format": "default",
-            "title": "Frequência de Atualização no Portal",
-            "description": "Frequência de Atualização dos dados no Portal da Transparência"
-          },
-          {
-            "name": "HORARIO_ATUALIZACAO_PORTAL",
-            "type": "string",
-            "format": "default",
-            "title": "Horário de Atualização no Portal",
-            "description": "Horário de Atualização dos dados no Portal da Transparência"
-          }
-        ]
-      },
-      "title": "Mapa consultas Portal",
-      "format": "csv",
+      "schema": "schema.json",
+      "title": "Alteração Orçamentária",
+      "mediatype": "text/csv",
       "encoding": "windows-1252",
-      "description": "Relação do mapa das consulta do Portal"
-    }
-  ],
+      "description": "Informações sobre créditos adicionais suplementados às Leis Orçamentárias Anuais do Estado",
+      "format": "csv"
+    },
+    {
+      "name": "compras-contratos",
+      "path": "compras-contratos.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Compras e Contratos",
+      "mediatype": "text/csv",
+      "encoding": "windows-1252",
+      "description": "Informações sobre os processos de compras de materiais e serviços realizados pelo Estado e contratos firmados entre o Estadoe e terceiros",
+      "format": "csv"
+    },
+    {
+      "name": "convenio-entrada-recursos",
+      "path": "convenio-entrada-recursos.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Convênio de Entrada de recursos",
+      "mediatype": "text/csv",
+      "encoding": "windows-1252",
+      "description": "Informações de convênios de entrada de recursos celebrados pelo Estado com o governo federal, municípios, organizações da sociedade civil para execução de politíca pública estadual",
+      "format": "csv"
+    },
+    {
+      "name": "convenio-parceria-saida-recursos",
+      "path": "convenio-parceria-saida-recursos.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Convênio/Parceria -Saída de Recursos",
+      "mediatype": "text/csv",
+      "encoding": "windows-1252",
+      "description": "Informações de convênios/parceria de saída de recursos celebrados pelo Estado com municípios e organizações da sociedade civil",
+      "format": "csv"
+    },{
+      "name": "crédito-orcamentario",
+      "path": "crédito-orcamentario.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Crédito Orçamentário",
+      "mediatype": "text/csv",
+      "encoding": "windows-1252",
+      "description": "Informações sobre as despesas estaduais orçadas nas Leis Orçamentárias Anuais",
+      "format": "csv"
+    },
+    {
+      "name": "despesa",
+      "path": "despesa.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Despesa",
+      "mediatype": "text/csv",
+      "encoding": "windows-1252",
+      "description": "Informações sobre despesas empenhadas, liquidadas e pagas pelo Estado ano a ano",
+      "format": "csv"
+    },
+    {
+      "name": "restos-a-pagar",
+      "path": "restos-a-pagar.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Restos a Pagar",
+      "mediatype": "text/csv",
+      "encoding": "windows-1252",
+      "description": "Informações sobre as despesas que se iniciaram num ano (emepenho e liquidação) e foram concluídas (pagas) em anos subsequentes",
+      "format": "csv"
+    },
+    {
+      "name": "mapa-investimento",
+      "path": "mapa-investimento.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Mapa de Investimento",
+      "mediatype": "text/csv",
+      "encoding": "windows-1252",
+      "description": "Mapa de investimento referente aos gastos com compras de equipamentos, realização de obras, material permanente e outras despesas com investimentos",
+      "format": "csv"
+    },
+    {
+      "name": "diarias",
+      "path": "diarias.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Diarias",
+      "mediatype": "text/csv",
+      "encoding": "windows-1252",
+      "description": "Informações sobre as despesas com diárias de viagens empenhadas, liquidadas e pagas aos servidores públicos pelo Estado",
+      "format": "csv"
+    },
+    {
+      "name": "despesa-pessoal",
+      "path": "despesa-pessoal.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Despesa com Pessoal",
+      "mediatype": "text/csv",
+      "encoding": "windows-1252",
+      "description": "Informações sobre as despesas com pessoal do Estado - Ativos, Inativos, Pensionistas e Contratados",
+      "format": "csv"
+    },
+    {
+      "name": "execucao-divida",
+      "path": "execucao-divida.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Execução da Dívida",
+      "mediatype": "text/csv",
+      "encoding": "windows-1252",
+      "description": "Informações sobre pagamento das dívidas externas e internas do Estado",
+      "format": "csv"
+    },
+    {
+      "name": "viagens",
+      "path": "viagens.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Viagens",
+      "mediatype": "text/csv",
+      "encoding": "windows-1252",
+      "description": "Informações sobre as viagens realizadas pelos servidores públicos incluindo motivos, destinos, diárias e passagens",
+      "format": "csv"
+    },
+    {
+      "name": "receita",
+      "path": "receita.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Receita",
+      "mediatype": "text/csv",
+      "encoding": "windows-1252",
+      "description": "Informações sobre as receitas previstas e efetivamente arrecadadas pelo Estado, como tributos, operações de crédito, alienação de bens e outras fontes",
+      "format": "csv"
+    },
+       ],
   "name": "mapa-consultas-portal",
   "title": "Mapa consultas do Portal",
-  "description": "Relação do mapa das consulta do Portal"
+  "description": "",
+  "private": "false",
+  "state": "active",
+  "version": "0.1.0",
 }

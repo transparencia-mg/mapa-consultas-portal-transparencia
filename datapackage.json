@@ -45,8 +45,8 @@
       "description": "Informações de convênios/parceria de saída de recursos celebrados pelo Estado com municípios e organizações da sociedade civil",
       "format": "csv"
     },{
-      "name": "crédito-orcamentario",
-      "path": "crédito-orcamentario.csv",
+      "name": "credito-orcamentario",
+      "path": "credito-orcamentario.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Crédito Orçamentário",

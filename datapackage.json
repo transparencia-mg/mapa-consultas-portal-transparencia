@@ -3,7 +3,7 @@
   "resources": [
  {
       "name": "alteracao-orcamentaria",
-      "path": "alteracao-orcamentaria.csv",
+      "path": "data/alteracao-orcamentaria.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Alteração Orçamentária",
@@ -14,7 +14,7 @@
     },
     {
       "name": "compras-contratos",
-      "path": "compras-contratos.csv",
+      "path": "data/compras-contratos.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Compras e Contratos",
@@ -25,7 +25,7 @@
     },
     {
       "name": "convenio-entrada-recursos",
-      "path": "convenio-entrada-recursos.csv",
+      "path": "data/convenio-entrada-recursos.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Convênio de Entrada de recursos",
@@ -36,7 +36,7 @@
     },
     {
       "name": "convenio-parceria-saida-recursos",
-      "path": "convenio-parceria-saida-recursos.csv",
+      "path": "data/convenio-parceria-saida-recursos.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Convênio/Parceria -Saída de Recursos",
@@ -46,7 +46,7 @@
       "format": "csv"
     },{
       "name": "credito-orcamentario",
-      "path": "credito-orcamentario.csv",
+      "path": "data/credito-orcamentario.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Crédito Orçamentário",
@@ -57,7 +57,7 @@
     },
     {
       "name": "despesa",
-      "path": "despesa.csv",
+      "path": "data/despesa.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Despesa",
@@ -68,7 +68,7 @@
     },
     {
       "name": "restos-a-pagar",
-      "path": "restos-a-pagar.csv",
+      "path": "data/restos-a-pagar.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Restos a Pagar",
@@ -79,7 +79,7 @@
     },
     {
       "name": "mapa-investimento",
-      "path": "mapa-investimento.csv",
+      "path": "data/mapa-investimento.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Mapa de Investimento",
@@ -90,7 +90,7 @@
     },
     {
       "name": "diarias",
-      "path": "diarias.csv",
+      "path": "data/diarias.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Diarias",
@@ -101,7 +101,7 @@
     },
     {
       "name": "despesa-pessoal",
-      "path": "despesa-pessoal.csv",
+      "path": "data/despesa-pessoal.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Despesa com Pessoal",
@@ -112,7 +112,7 @@
     },
     {
       "name": "execucao-divida",
-      "path": "execucao-divida.csv",
+      "path": "data/execucao-divida.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Execução da Dívida",
@@ -123,7 +123,7 @@
     },
     {
       "name": "viagens",
-      "path": "viagens.csv",
+      "path": "data/viagens.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Viagens",
@@ -134,7 +134,7 @@
     },
     {
       "name": "receita",
-      "path": "receita.csv",
+      "path": "data/receita.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Receita",

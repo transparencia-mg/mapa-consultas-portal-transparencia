@@ -25,7 +25,7 @@
     },
     {
       "name": "convenio-entrada-recursos",
-      "path": "data/convenio-entrada-recursos.csv",
+      "path": "data/convenio-entrada-recurso.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Convênio de Entrada de recursos",

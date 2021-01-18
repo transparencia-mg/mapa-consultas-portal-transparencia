@@ -142,7 +142,7 @@
       "encoding": "windows-1252",
       "description": "Informações sobre as receitas previstas e efetivamente arrecadadas pelo Estado, como tributos, operações de crédito, alienação de bens e outras fontes",
       "format": "csv"
-    },
+    }
        ],
   "name": "mapa-consultas-portal",
   "title": "Mapa consultas do Portal",

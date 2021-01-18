@@ -8,7 +8,7 @@
       "schema": "schema.json",
       "title": "Alteração Orçamentária",
       "mediatype": "text/csv",
-      "encoding": "windows-1252",
+      "encoding": "utf-8-sig",
       "description": "Informações sobre créditos adicionais suplementados às Leis Orçamentárias Anuais do Estado",
       "format": "csv"
     },
@@ -19,7 +19,7 @@
       "schema": "schema.json",
       "title": "Compras e Contratos",
       "mediatype": "text/csv",
-      "encoding": "windows-1252",
+      "encoding": "utf-8-sig",
       "description": "Informações sobre os processos de compras de materiais e serviços realizados pelo Estado e contratos firmados entre o Estadoe e terceiros",
       "format": "csv"
     },
@@ -30,7 +30,7 @@
       "schema": "schema.json",
       "title": "Convênio de Entrada de recursos",
       "mediatype": "text/csv",
-      "encoding": "windows-1252",
+      "encoding": "utf-8-sig",
       "description": "Informações de convênios de entrada de recursos celebrados pelo Estado com o governo federal, municípios, organizações da sociedade civil para execução de politíca pública estadual",
       "format": "csv"
     },
@@ -41,7 +41,7 @@
       "schema": "schema.json",
       "title": "Convênio/Parceria -Saída de Recursos",
       "mediatype": "text/csv",
-      "encoding": "windows-1252",
+      "encoding": "utf-8-sig",
       "description": "Informações de convênios/parceria de saída de recursos celebrados pelo Estado com municípios e organizações da sociedade civil",
       "format": "csv"
     },{
@@ -51,7 +51,7 @@
       "schema": "schema.json",
       "title": "Crédito Orçamentário",
       "mediatype": "text/csv",
-      "encoding": "windows-1252",
+      "encoding": "utf-8-sig",
       "description": "Informações sobre as despesas estaduais orçadas nas Leis Orçamentárias Anuais",
       "format": "csv"
     },
@@ -62,7 +62,7 @@
       "schema": "schema.json",
       "title": "Despesa",
       "mediatype": "text/csv",
-      "encoding": "windows-1252",
+      "encoding": "utf-8-sig",
       "description": "Informações sobre despesas empenhadas, liquidadas e pagas pelo Estado ano a ano",
       "format": "csv"
     },
@@ -73,7 +73,7 @@
       "schema": "schema.json",
       "title": "Restos a Pagar",
       "mediatype": "text/csv",
-      "encoding": "windows-1252",
+      "encoding": "utf-8-sig",
       "description": "Informações sobre as despesas que se iniciaram num ano (emepenho e liquidação) e foram concluídas (pagas) em anos subsequentes",
       "format": "csv"
     },
@@ -84,7 +84,7 @@
       "schema": "schema.json",
       "title": "Mapa de Investimento",
       "mediatype": "text/csv",
-      "encoding": "windows-1252",
+      "encoding": "utf-8-sig",
       "description": "Mapa de investimento referente aos gastos com compras de equipamentos, realização de obras, material permanente e outras despesas com investimentos",
       "format": "csv"
     },
@@ -95,7 +95,7 @@
       "schema": "schema.json",
       "title": "Diarias",
       "mediatype": "text/csv",
-      "encoding": "windows-1252",
+      "encoding": "utf-8-sig",
       "description": "Informações sobre as despesas com diárias de viagens empenhadas, liquidadas e pagas aos servidores públicos pelo Estado",
       "format": "csv"
     },
@@ -106,7 +106,7 @@
       "schema": "schema.json",
       "title": "Despesa com Pessoal",
       "mediatype": "text/csv",
-      "encoding": "windows-1252",
+      "encoding": "utf-8-sig",
       "description": "Informações sobre as despesas com pessoal do Estado - Ativos, Inativos, Pensionistas e Contratados",
       "format": "csv"
     },
@@ -117,7 +117,7 @@
       "schema": "schema.json",
       "title": "Execução da Dívida",
       "mediatype": "text/csv",
-      "encoding": "windows-1252",
+      "encoding": "utf-8-sig",
       "description": "Informações sobre pagamento das dívidas externas e internas do Estado",
       "format": "csv"
     },
@@ -128,7 +128,7 @@
       "schema": "schema.json",
       "title": "Viagens",
       "mediatype": "text/csv",
-      "encoding": "windows-1252",
+      "encoding": "utf-8-sig",
       "description": "Informações sobre as viagens realizadas pelos servidores públicos incluindo motivos, destinos, diárias e passagens",
       "format": "csv"
     },
@@ -139,7 +139,7 @@
       "schema": "schema.json",
       "title": "Receita",
       "mediatype": "text/csv",
-      "encoding": "windows-1252",
+      "encoding": "utf-8-sig",
       "description": "Informações sobre as receitas previstas e efetivamente arrecadadas pelo Estado, como tributos, operações de crédito, alienação de bens e outras fontes",
       "format": "csv"
     }

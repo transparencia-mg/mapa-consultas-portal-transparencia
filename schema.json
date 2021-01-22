@@ -36,32 +36,39 @@
             "description": "Nome descritivo do campo no Portal da Transparência."
           },
           {
+            "name": "VOCE_ESTA_AQUIL",
+            "type": "string",
+            "format": "default",
+            "title": "Você está aqui",
+            "description": "Migalha do campo no Portal de Transparência."
+          },
+          {
             "name": "PERMITE_SELECAO",
             "type": "string",
             "format": "default",
             "title": "Permite Seleção",
-            "description": "Informação se o campo permite seleção. "
+            "description": "Informação se o campo permite seleção no Portal da Transparência. "
           },
           {
             "name": "PERMITE_CLIQUE",
             "type": "string",
             "format": "default",
             "title": "Permite Clique",
-            "description": "Informação se é possível obter mais detalhes ao clicar no campo."
+            "description": "Informação se é possível obter mais detalhes ao clicar no campo no Portal da Transparência."
           },
           {
             "name": "POSSUI_TOOTIP",
             "type": "string",
             "format": "default",
-            "description": "Informação se o campo possui algum dicionário.",
+            "description": "Informação se o campo possui algum dicionário no Portal da Transparência.",
             "title": "Possui Tooltip"
           },
           {
             "name": "TOOLTIP_DESCRICAO_PORTAL",
             "type": "string",
             "format": "default",
-            "title": "Descrição do Tooltip no Portal ",
-            "description": "Texto explicativo do campo no Portal da Transparência"
+            "title": "Tooltip do campo no Portal ",
+            "description": "Descrição do Tooltip no Portal da Transparência"
           },
           {
             "name": "OBSERVACAO",
@@ -81,7 +88,7 @@
             "type": "string",
             "format": "default",
             "title": "Campo origem dos dados",
-            "description": "Nome do campo que identifica a informação no Portal da Transparência"
+            "description": "Nome do campo que identifica a informação armazém de dados ou sistema transacional"
           },
           {
             "name": "DIMENSAO_ORIGEM_DADOS",
@@ -89,6 +96,13 @@
             "format": "default",
             "title": "Dimensão da origem dos dados",
             "description": "Local/dimensão do campo no armazém de dados ou no sistema transacional"
+          },
+          {
+            "name": "TOOLTIP_ORIGEM_DADOS",
+            "type": "string",
+            "format": "default",
+            "title": "Tooltip do campo origem dos dados",
+            "description": "Descrição do Tooltip no armazém de dados ou no sistema transacional"
           },
           {
             "name": "PERIODICIDADE_ATUALIZACAO_PORTAL",

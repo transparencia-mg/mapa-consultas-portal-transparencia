@@ -36,7 +36,7 @@
             "description": "Nome descritivo do campo no Portal da Transparência."
           },
           {
-            "name": "VOCE_ESTA_AQUIL",
+            "name": "VOCE_ESTA_AQUI",
             "type": "string",
             "format": "default",
             "title": "Você está aqui",

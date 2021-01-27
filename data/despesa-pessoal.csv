@@ -1,18 +1,18 @@
-﻿GRUPO;CONSULTA_PORTAL;TIPO_CONSULTA;FILTRO;CAMPO_PORTAL;VOCE_ESTA_AQUI;PERMITE_SELECAO;PERMITE_CLIQUE;POSSUI_TOOTIP;TOOLTIP_DESCRICAO_PORTAL;OBSERVACAO;ORIGEM_DADOS;CAMPO_ORIGEM_DADOS;DIMENSAO_ORIGEM_DADOS;TOOLTIP_ORIGEM_DADOS;PERIODICIDADE_ATUALIZACAO_PORTAL;FREQUENCIA_ATUALIZACAO_PORTAL;HORARIO_ATUALIZACAO_PORTAL
-Pessoal;despesa com pessoal;pesquisa básica;;ano;;sim;não;não;-;-;armazém SIAFI;Ano de exercício;Período Contábil ;;;;
-Pessoal;despesa com pessoal;pesquisa básica;;início/fim;;sim;não;não;-;-;armazém SIAFI;Mês - Númerico;Período Contábil ;;;;
-Pessoal;despesa com pessoal;pesquisa básica;poder;poder;;não;sim;sim;Três poderes formam o Estado: Executivo, Legislativo e Judiciário. Contém um conjunto de órgãos e entidades e atuam separadamente, com independência e harmonia. Aqui, o Ministério Público está colocado à parte.;-;armazém SIAFI;;;;;;
-Pessoal;despesa com pessoal;pesquisa básica;poder;Valor Pessoal Ativo;;não;não;sim;;-;armazém SIAFI;;;;;;
-Pessoal;despesa com pessoal;pesquisa básica;poder;Valor Pessoal Inativo;;não;não;sim;Despesas com pessoal inativo, relativas a cargos, funções ou empregos, civis, militares e de membros de Poder, com proventos da aposentadoria e reformas.;-;armazém SIAFI;;;;;;
-Pessoal;despesa com pessoal;pesquisa básica;poder;Valor Pensionistas;;não;não;sim;Despesas com pensionistas, relativas a mandatos eletivos, cargos, funções ou empregos, civis, militares e de membros de Poder, com pensões, inclusive as de caráter indenizatório;-;armazém SIAFI;;;;;;
-Pessoal;despesa com pessoal;pesquisa básica;poder;Valor Contratados;;não;não;sim;Despesas relativas à mão-de-obra constantes dos contratos de terceirização, incluindo as contribuições recolhidas pelo ente às entidades de previdência.;-;armazém SIAFI;;;;;;
-Pessoal;despesa com pessoal;pesquisa básica;poder;Total;;não;não;sim;Somatório das despesas com pessoal ativo, inativo, pensionistas e contratados.;-;armazém SIAFI;;;;;;
-Pessoal;despesa com pessoal;pesquisa básica;poder;Código;;não;não;não;;-;armazém SIAFI;Unidade Orçamentária - código;Unidade Orçamentária;;;;
-Pessoal;despesa com pessoal;pesquisa básica;poder;Órgão;;não;não;sim;Nome da Unidade Orçametária que executou a despesa;-;armazém SIAFI;Unidade Orçamentária - nome;Unidade Orçamentária;;;;
-Pessoal;despesa com pessoal;pesquisa básica;Órgão;Valor Pessoal Ativo;;não;não;sim;;-;armazém SIAFI;;;;;;
-Pessoal;despesa com pessoal;pesquisa básica;Órgão;Valor Pessoal Inativo;;não;não;sim;Despesas com pessoal inativo, relativas a cargos, funções ou empregos, civis, militares e de membros de Poder, com proventos da aposentadoria e reformas.;-;armazém SIAFI;;;;;;
-Pessoal;despesa com pessoal;pesquisa básica;Órgão;Valor Pensionistas;;não;não;sim;Despesas com pensionistas, relativas a mandatos eletivos, cargos, funções ou empregos, civis, militares e de membros de Poder, com pensões, inclusive as de caráter indenizatório;-;armazém SIAFI;;;;;;
-Pessoal;despesa com pessoal;pesquisa básica;Órgão;Valor Contratados;;não;não;sim;Despesas relativas à mão-de-obra constantes dos contratos de terceirização, incluindo as contribuições recolhidas pelo ente às entidades de previdência.;-;armazém SIAFI;;;;;;
-Pessoal;despesa com pessoal;pesquisa básica;Órgão;Total;;não;não;sim;Somatório das despesas com pessoal ativo, inativo, pensionistas e contratados.;-;armazém SIAFI;;;;;;
-Pessoal;despesa com pessoal;pesquisa básica;Órgão;Código;;não;não;não;;-;armazém SIAFI;Unidade Orçamentária - código;Unidade Orçamentária;;;;
-Pessoal;despesa com pessoal;pesquisa básica;Órgão;Órgão;;não;não;sim;Nome da Unidade Orçametária que executou a despesa;-;armazém SIAFI;Unidade Orçamentária - nome;Unidade Orçamentária;;;;
+﻿GRUPO;CONSULTA_PORTAL;TIPO_CONSULTA;FILTRO;CAMPO_PORTAL;MIGALHA;PERMITE_SELECAO;PERMITE_CLIQUE;POSSUI_TOOTIP;TOOLTIP_DESCRICAO_PORTAL;OBSERVACAO;CAMPO_DERIVADO;ORIGEM_DADOS;CAMPO_ORIGEM_DADOS;DIMENSAO_ORIGEM_DADOS;TOOLTIP_ORIGEM_DADOS
+Pessoal;despesa com pessoal;pesquisa básica;;ano;;sim;não;não;-;-;;armazém SIAFI;Ano de exercício;Período Contábil ;
+Pessoal;despesa com pessoal;pesquisa básica;;início/fim;;sim;não;não;-;-;;armazém SIAFI;Mês - Númerico;Período Contábil ;
+Pessoal;despesa com pessoal;pesquisa básica;poder;poder;;não;sim;sim;Três poderes formam o Estado: Executivo, Legislativo e Judiciário. Contém um conjunto de órgãos e entidades e atuam separadamente, com independência e harmonia. Aqui, o Ministério Público está colocado à parte.;-;;armazém SIAFI;;;
+Pessoal;despesa com pessoal;pesquisa básica;poder;Valor Pessoal Ativo;;não;não;sim;;-;;armazém SIAFI;;;
+Pessoal;despesa com pessoal;pesquisa básica;poder;Valor Pessoal Inativo;;não;não;sim;Despesas com pessoal inativo, relativas a cargos, funções ou empregos, civis, militares e de membros de Poder, com proventos da aposentadoria e reformas.;-;;armazém SIAFI;;;
+Pessoal;despesa com pessoal;pesquisa básica;poder;Valor Pensionistas;;não;não;sim;Despesas com pensionistas, relativas a mandatos eletivos, cargos, funções ou empregos, civis, militares e de membros de Poder, com pensões, inclusive as de caráter indenizatório;-;;armazém SIAFI;;;
+Pessoal;despesa com pessoal;pesquisa básica;poder;Valor Contratados;;não;não;sim;Despesas relativas à mão-de-obra constantes dos contratos de terceirização, incluindo as contribuições recolhidas pelo ente às entidades de previdência.;-;;armazém SIAFI;;;
+Pessoal;despesa com pessoal;pesquisa básica;poder;Total;;não;não;sim;Somatório das despesas com pessoal ativo, inativo, pensionistas e contratados.;-;;armazém SIAFI;;;
+Pessoal;despesa com pessoal;pesquisa básica;poder;Código;;não;não;não;;-;;armazém SIAFI;Unidade Orçamentária - código;Unidade Orçamentária;
+Pessoal;despesa com pessoal;pesquisa básica;poder;Órgão;;não;não;sim;Nome da Unidade Orçametária que executou a despesa;-;;armazém SIAFI;Unidade Orçamentária - nome;Unidade Orçamentária;
+Pessoal;despesa com pessoal;pesquisa básica;Órgão;Valor Pessoal Ativo;;não;não;sim;;-;;armazém SIAFI;;;
+Pessoal;despesa com pessoal;pesquisa básica;Órgão;Valor Pessoal Inativo;;não;não;sim;Despesas com pessoal inativo, relativas a cargos, funções ou empregos, civis, militares e de membros de Poder, com proventos da aposentadoria e reformas.;-;;armazém SIAFI;;;
+Pessoal;despesa com pessoal;pesquisa básica;Órgão;Valor Pensionistas;;não;não;sim;Despesas com pensionistas, relativas a mandatos eletivos, cargos, funções ou empregos, civis, militares e de membros de Poder, com pensões, inclusive as de caráter indenizatório;-;;armazém SIAFI;;;
+Pessoal;despesa com pessoal;pesquisa básica;Órgão;Valor Contratados;;não;não;sim;Despesas relativas à mão-de-obra constantes dos contratos de terceirização, incluindo as contribuições recolhidas pelo ente às entidades de previdência.;-;;armazém SIAFI;;;
+Pessoal;despesa com pessoal;pesquisa básica;Órgão;Total;;não;não;sim;Somatório das despesas com pessoal ativo, inativo, pensionistas e contratados.;-;;armazém SIAFI;;;
+Pessoal;despesa com pessoal;pesquisa básica;Órgão;Código;;não;não;não;;-;;armazém SIAFI;Unidade Orçamentária - código;Unidade Orçamentária;
+Pessoal;despesa com pessoal;pesquisa básica;Órgão;Órgão;;não;não;sim;Nome da Unidade Orçametária que executou a despesa;-;;armazém SIAFI;Unidade Orçamentária - nome;Unidade Orçamentária;

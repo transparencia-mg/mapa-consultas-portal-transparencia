@@ -65,7 +65,7 @@
             	  "não"
           },
           {
-            "name": "POSSUI_TOOLTIP",
+            "name": "POSSUI_TOOTIP",
             "type": "string",
             "format": "default",
             "description": "Informação se o campo possui algum dicionário no Portal da Transparência.",

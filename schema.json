@@ -52,8 +52,6 @@
             	"enum":[
             	  "sim",
             	  "não"
-            	]
-            }
           },
           {
             "name": "PERMITE_CLIQUE",
@@ -65,11 +63,9 @@
             	"enum":[
             	  "sim",
             	  "não"
-            	]
-            }
           },
           {
-            "name": "POSSUI_TOOTIP",
+            "name": "POSSUI_TOOLTIP",
             "type": "string",
             "format": "default",
             "description": "Informação se o campo possui algum dicionário no Portal da Transparência.",
@@ -78,8 +74,6 @@
             	"enum":[
             	  "sim",
             	  "não"
-            	]
-            }
           },
           {
             "name": "TOOLTIP_DESCRICAO_PORTAL",
@@ -104,8 +98,6 @@
             	"enum":[
             	  "sim",
             	  "não"
-            	]
-            }
           },
           {
             "name": "ORIGEM_DADOS",

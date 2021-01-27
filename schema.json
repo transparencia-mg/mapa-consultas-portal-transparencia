@@ -47,21 +47,39 @@
             "type": "string",
             "format": "default",
             "title": "Permite Seleção",
-            "description": "Informação se o campo permite seleção no Portal da Transparência. "
+            "description": "Informação se o campo permite seleção no Portal da Transparência.",
+            "constraints": {
+            	"enum":[
+            	  "sim",
+            	  "não"
+            	]
+            }
           },
           {
             "name": "PERMITE_CLIQUE",
             "type": "string",
             "format": "default",
             "title": "Permite Clique",
-            "description": "Informação se é possível obter mais detalhes ao clicar no campo no Portal da Transparência."
+            "description": "Informação se é possível obter mais detalhes ao clicar no campo no Portal da Transparência.",
+            "constraints": {
+            	"enum":[
+            	  "sim",
+            	  "não"
+            	]
+            }
           },
           {
             "name": "POSSUI_TOOTIP",
             "type": "string",
             "format": "default",
             "description": "Informação se o campo possui algum dicionário no Portal da Transparência.",
-            "title": "Possui Tooltip"
+            "title": "Possui Tooltip",
+            "constraints": {
+            	"enum":[
+            	  "sim",
+            	  "não"
+            	]
+            }
           },
           {
             "name": "TOOLTIP_DESCRICAO_PORTAL",
@@ -75,6 +93,19 @@
             "type": "string",
             "format": "default",
             "title": "Observação"
+          },
+          {
+            "name": "CAMPO_DERIVADO",
+            "type": "string",
+            "format": "default",
+            "title": "Campo derivado",
+            "description": "Informação se o campo é composto por mais uma variável",
+            "constraints": {
+            	"enum":[
+            	  "sim",
+            	  "não"
+            	]
+            }
           },
           {
             "name": "ORIGEM_DADOS",
@@ -103,28 +134,7 @@
             "format": "default",
             "title": "Tooltip do campo origem dos dados",
             "description": "Descrição do Tooltip no armazém de dados ou no sistema transacional"
-          },
-          {
-            "name": "PERIODICIDADE_ATUALIZACAO_PORTAL",
-            "type": "string",
-            "format": "default",
-            "title": "Periodicidade de Atualização no Portal",
-            "description": "Periodicidade de Atualização dos dados no Portal da Transparência"
-          },
-          {
-            "name": "FREQUENCIA_ATUALIZACAO_PORTAL",
-            "type": "string",
-            "format": "default",
-            "title": "Frequência de Atualização no Portal",
-            "description": "Frequência de Atualização dos dados no Portal da Transparência"
-          },
-          {
-            "name": "HORARIO_ATUALIZACAO_PORTAL",
-            "type": "string",
-            "format": "default",
-            "title": "Horário de Atualização no Portal",
-            "description": "Horário de Atualização dos dados no Portal da Transparência"
-    }
+          },         
   ],
   "missingValues": [
     "NA",

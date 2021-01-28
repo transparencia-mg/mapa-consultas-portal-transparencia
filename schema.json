@@ -69,7 +69,7 @@
       }
      },
      {
-            "name": "POSSUI_TOOTIP",
+            "name": "POSSUI_TOOLTIP",
             "type": "string",
             "format": "default",
             "description": "Informação se o campo possui algum dicionário no Portal da Transparência.",

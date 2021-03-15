@@ -1,48 +1,48 @@
 {
   "fields": [
-    {
-      "name": "GRUPO",
-      "type": "string",
-      "format": "default",
-      "title": "Grupo",
-      "description": "Nome do grupo o qual a consulta está disponível no Portal da Transparência. Exemplo: Despesas, Pessoal, Convênios e etc."
-    },
-    {
-        "name": "CONSULTA_PORTAL", 
-        "type": "string",
-        "format": "default",
-        "title": "Consulta Portal",
-        "description": "Nome da consulta no Portal da Transparência dentro de um grupo.Exemplo: Grupo: Despesas - Consultas: Despesa, Restos a Pagar e Mapa de Investimento"
-    },
-    {
+    	{
+     		 "name": "GRUPO",
+     		 "type": "string",
+      		"format": "default",
+      		"title": "Grupo",
+      		"description": "Nome do grupo o qual a consulta está disponível no Portal da Transparência. Exemplo: Despesas, Pessoal, Convênios e etc."
+    	},
+    	{
+        	"name": "CONSULTA_PORTAL", 
+       		 "type": "string",
+        	"format": "default",
+        	"title": "Consulta Portal",
+       		 "description": "Nome da consulta no Portal da Transparência dentro de um grupo.Exemplo: Grupo: Despesas - Consultas: Despesa, Restos a Pagar e Mapa de Investimento"
+   		},
+    	{
             "name": "TIPO_CONSULTA",
             "type": "string",
             "format": "default",
             "title": "Tipo Consulta",
             "description": "Nome do tipo de consulta no Portal da Transparência. Ex. pesquisa básica, pesquisa avançada, formulário de detalhamento e etc."
-    },
-    {
+    	},
+    	{
             "name": "FILTRO",
             "type": "string",
             "format": "default",
             "title": "Filtro",
             "description": "Nome do filtro (nível) da consulta no Portal da Transparência. Ex. Filtro por órgão, favorecido e etc."
-    },
-    {
+    	},
+   		 {
             "name": "CAMPO_PORTAL",
             "type": "string",
             "format": "default",
             "title": "Campo Portal",
             "description": "Nome descritivo do campo no Portal da Transparência."
-    },
-    {
+    	},
+   		 {
             "name": "MIGALHA",
             "type": "string",
             "format": "default",
             "title": "Você está aqui",
             "description": "Migalha do campo no Portal de Transparência."
-    },
-    {
+    	},
+    	{
             "name": "PERMITE_SELECAO",
             "type": "string",
             "format": "default",
@@ -52,10 +52,10 @@
             	"enum":[
             	  "sim",
             	  "não"
-        ] 
-      }
-    },
-    {
+        		] 
+     	 	}
+   		 },
+   		 {
             "name": "PERMITE_CLIQUE",
             "type": "string",
             "format": "default",
@@ -65,10 +65,10 @@
             	"enum":[
             	  "sim",
             	  "não"
-       ]
-      }
-     },
-     {
+       			]
+      		}
+    	 },
+     	{
             "name": "POSSUI_TOOLTIP",
             "type": "string",
             "format": "default",
@@ -78,23 +78,23 @@
             	"enum":[
             	  "sim",
             	  "não"
-        ]
-      }
-    },
-    {
+       			 ]
+      		}
+    	},
+    	{
             "name": "TOOLTIP_DESCRICAO_PORTAL",
             "type": "string",
             "format": "default",
             "title": "Tooltip do campo no Portal ",
             "description": "Descrição do Tooltip no Portal da Transparência"
-    },
-    {
+   		 },
+    	{
             "name": "OBSERVACAO",
             "type": "string",
             "format": "default",
             "title": "Observação"
-    },
-    {
+    	},
+    	{
             "name": "CAMPO_DERIVADO",
             "type": "string",
             "format": "default",
@@ -104,40 +104,40 @@
             	"enum":[
             	  "sim",
             	  "não"
-        ]
-     }
-    },
-    {
+       			 ]
+     		}
+    	},
+    	{
             "name": "ORIGEM_DADOS",
             "type": "string",
             "format": "default",
             "title": "Origem dos dados",
             "description": "Identificação do local onde os dados são extraídos. Pode ser o armazém de dados ou no sistema transacional."
-    },
-    {
+   		},
+    	{
             "name": "CAMPO_ORIGEM_DADOS",
             "type": "string",
             "format": "default",
             "title": "Campo origem dos dados",
             "description": "Nome do campo que identifica a informação armazém de dados ou sistema transacional"
-    },
-    {
-      "name": "DIMENSAO_ORIGEM_DADOS",
-      "type": "string",
-      "format": "default",
-       "title": "Dimensão da origem dos dados",
-       "description": "Local/dimensão do campo no armazém de dados ou no sistema transacional"
-    },
-    {
-     "name": "TOOLTIP_ORIGEM_DADOS",
-      "type": "string",
-      "format": "default",
-      "title": "Tooltip do campo origem dos dados",
-      "description": "Descrição do Tooltip no armazém de dados ou no sistema transacional"
-    }         
-  ],
+    	},
+    	{
+     		 "name": "DIMENSAO_ORIGEM_DADOS",
+      		"type": "string",
+      		"format": "default",
+      		 "title": "Dimensão da origem dos dados",
+      		 "description": "Local/dimensão do campo no armazém de dados ou no sistema transacional"
+    	},
+    	{
+    		 "name": "TOOLTIP_ORIGEM_DADOS",
+     		 "type": "string",
+     		 "format": "default",
+     		 "title": "Tooltip do campo origem dos dados",
+     		 "description": "Descrição do Tooltip no armazém de dados ou no sistema transacional"
+    	}         
+ 	 ],
   "missingValues": [
     "NA",
-    ""
-  ]
+  	 ""
+ 	 ]
 }

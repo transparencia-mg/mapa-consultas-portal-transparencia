@@ -28,7 +28,7 @@ Pessoal;viagens;pesquisa básica;Programa;Programa;;não;sim;sim;Conjunto de aç
 Pessoal;viagens;pesquisa básica;Programa;Órgão;;não;não;sim;Nome da unidade orçamentária que executou a despesa.;-;;;;;
 Pessoal;viagens;pesquisa básica;Programa;Favorecido ;;não;sim;sim;servidor público ou colaborador eventual que realizou a viagem a trabalho.;-;;;;;
 Pessoal;viagens;pesquisa básica;Programa;CPF;;não;não;sim;Número de identificação do Cadastro de Pessoas Físicas.;-;;;;;
-Pessoal;viagens;pesquisa básica;Programa;Órgão;;não;não;sim;Nome da unidade orçamentária que executou a despesa.;-;;;;;
+Pessoal;viagens;pesquisa básica;Programa;Órgão;Programa /;não;não;sim;Nome da unidade orçamentária que executou a despesa.;-;;;;;
 Pessoal;viagens;pesquisa básica;Programa;Cargo;;não;não;sim;Cargo público ocupado pelo servidor que realizou a viagem.;-;;;;;
 Pessoal;viagens;pesquisa básica;Programa;Número de Documento De Viagem;;não;sim;sim;Número de identificação do documento de viagem no Sistema de Concessão Diárias e Passagens (SCDP).;-;;;;;
 Pessoal;viagens;pesquisa básica;Programa;Município De Origem;;não;não;sim;Cidade de partida do servidor ou colaborador eventual em viagem a trabalho. Uma viagem com vários trechos pode ter mais de um município de origem.;-;;;;;

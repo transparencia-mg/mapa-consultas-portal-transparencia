@@ -24,7 +24,7 @@
       "format": "csv"
     },
     {
-      "name": "convenio-entrada-recursos",
+      "name": "convenio-entrada-recurso",
       "path": "data/convenio-entrada-recurso.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
@@ -67,25 +67,14 @@
       "format": "csv"
     },
     {
-      "name": "restos-a-pagar",
-      "path": "data/restos-a-pagar.csv",
+      "name": "despesa-pessoal",
+      "path": "data/despesa-pessoal.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
-      "title": "Restos a Pagar",
+      "title": "Despesa com Pessoal",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
-      "description": "Informações sobre as despesas que se iniciaram num ano (emepenho e liquidação) e foram concluídas (pagas) em anos subsequentes",
-      "format": "csv"
-    },
-    {
-      "name": "mapa-investimento",
-      "path": "data/mapa-investimento.csv",
-      "profile": "tabular-data-resource",
-      "schema": "schema.json",
-      "title": "Mapa de Investimento",
-      "mediatype": "text/csv",
-      "encoding": "utf-8-sig",
-      "description": "Mapa de investimento referente aos gastos com compras de equipamentos, realização de obras, material permanente e outras despesas com investimentos",
+      "description": "Informações sobre as despesas com pessoal do Estado - Ativos, Inativos, Pensionistas e Contratados",
       "format": "csv"
     },
     {
@@ -100,17 +89,17 @@
       "format": "csv"
     },
     {
-      "name": "despesa-pessoal",
-      "path": "data/despesa-pessoal.csv",
+      "name": "emendas-orcamentarias",
+      "path": "data/emendas-orcamentarias.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
-      "title": "Despesa com Pessoal",
+      "title": "Emendas Orçamentárias",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
-      "description": "Informações sobre as despesas com pessoal do Estado - Ativos, Inativos, Pensionistas e Contratados",
+      "description": "Informações sobre as Emendas parlamentares estaduais propostas e aprovadas nas Leis Orçamentárias Anuais",
       "format": "csv"
     },
-    {
+      {
       "name": "execucao-divida",
       "path": "data/execucao-divida.csv",
       "profile": "tabular-data-resource",
@@ -122,14 +111,36 @@
       "format": "csv"
     },
     {
-      "name": "viagens",
-      "path": "data/viagens.csv",
+      "name": "mapa-investimento",
+      "path": "data/mapa-investimento.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
-      "title": "Viagens",
+      "title": "Mapa de Investimento",
       "mediatype": "text/csv",
       "encoding": "utf-8-sig",
-      "description": "Informações sobre as viagens realizadas pelos servidores públicos incluindo motivos, destinos, diárias e passagens",
+      "description": "Mapa de investimento referente aos gastos com compras de equipamentos, realização de obras, material permanente e outras despesas com investimentos",
+      "format": "csv"
+    },
+    {
+      "name": "obras-orcadas",
+      "path": "data/obras-orcadas.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Obras Orçadas",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "description": "Informações sobre obras estaduais orçadas nas Leis Orçamentárias Anuais",
+      "format": "csv"
+    },
+     {
+      "name": "proposta-orcametaria",
+      "path": "data/proposta-orcametaria.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Proposta Orçamentária",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "description": "Informações sobre as despesas estaduais propostas pelo Poder Executivo nos Projetos das Leis Orçamentárias estaduais ",
       "format": "csv"
     },
     {
@@ -143,6 +154,40 @@
       "description": "Informações sobre as receitas previstas e efetivamente arrecadadas pelo Estado, como tributos, operações de crédito, alienação de bens e outras fontes",
       "format": "csv"
     }
+    {
+      "name": "restos-a-pagar",
+      "path": "data/restos-a-pagar.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Restos a Pagar",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "description": "Informações sobre as despesas que se iniciaram num ano (emepenho e liquidação) e foram concluídas (pagas) em anos subsequentes",
+      "format": "csv"
+    },
+    {
+      "name": "transferencia-impostos-municipios",
+      "path": "data/transferencia-impostos-municipios.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Transferência de impostos aos Municípios",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "description": "Informações sobre os valores repassados pelo Estado ao Municípios",
+      "format": "csv"
+    },
+    {
+      "name": "viagens",
+      "path": "data/viagens.csv",
+      "profile": "tabular-data-resource",
+      "schema": "schema.json",
+      "title": "Viagens",
+      "mediatype": "text/csv",
+      "encoding": "utf-8-sig",
+      "description": "Informações sobre as viagens realizadas pelos servidores públicos incluindo motivos, destinos, diárias e passagens",
+      "format": "csv"
+    },
+    
        ],
   "name": "mapa-consultas-portal",
   "title": "Mapa consultas do Portal",

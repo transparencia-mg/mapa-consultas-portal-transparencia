@@ -187,7 +187,7 @@
       "encoding": "utf-8-sig",
       "description": "Informações sobre as viagens realizadas pelos servidores públicos incluindo motivos, destinos, diárias e passagens",
       "format": "csv"
-    },
+    }
     
        ],
   "name": "mapa-consultas-portal",

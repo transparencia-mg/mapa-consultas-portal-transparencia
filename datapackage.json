@@ -44,7 +44,8 @@
       "encoding": "utf-8-sig",
       "description": "Informações de convênios/parceria de saída de recursos celebrados pelo Estado com municípios e organizações da sociedade civil",
       "format": "csv"
-    },{
+    },
+    {
       "name": "credito-orcamentario",
       "path": "data/credito-orcamentario.csv",
       "profile": "tabular-data-resource",
@@ -99,7 +100,7 @@
       "description": "Informações sobre as Emendas parlamentares estaduais propostas e aprovadas nas Leis Orçamentárias Anuais",
       "format": "csv"
     },
-      {
+    {
       "name": "execucao-divida",
       "path": "data/execucao-divida.csv",
       "profile": "tabular-data-resource",

@@ -134,8 +134,8 @@
       "format": "csv"
     },
      {
-      "name": "proposta-orcametaria",
-      "path": "data/proposta-orcametaria.csv",
+      "name": "proposta-orcamentaria",
+      "path": "data/proposta-orcamentaria.csv",
       "profile": "tabular-data-resource",
       "schema": "schema.json",
       "title": "Proposta Orçamentária",

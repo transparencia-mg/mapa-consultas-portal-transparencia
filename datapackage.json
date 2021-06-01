@@ -188,8 +188,16 @@
       "description": "Informações sobre as viagens realizadas pelos servidores públicos incluindo motivos, destinos, diárias e passagens",
       "format": "csv"
     }
-    
-       ],
+
+    "dialect": {
+      "delimiter": ";",
+      "doubleQuote": true,
+      "lineTerminator": "\r\n",
+      "quoteChar": "\"",
+      "skipInitialSpace": true,
+      "caseSensitiveHeader": true
+      }
+  ],
   "name": "mapa-consultas-portal",
   "title": "Mapa consultas do Portal",
   "description": "",
